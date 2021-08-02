@@ -16,7 +16,7 @@ The data consists of Wikipedia comments in English extracted from two sources: t
 * English-Chinese
 * English-German
 
-The dataset used in this repository is prepared by ourselves for the purpose of this task. See all the details [here](https://github.com/haeggee/error-detection-mt/dataset). Specifically, we create ```<data>.pkl``` files for easy reusability.
+The dataset used in this repository is prepared by ourselves for the purpose of this task. See all the details [here](https://github.com/haeggee/error-detection-mt/tree/main/dataset). Specifically, we create ```<data>.pkl``` files for easy reusability.
 
 ---
 
@@ -35,7 +35,7 @@ As mentioned above, we implement different approaches, most of which can be foun
 
 These are:
 
-* Monolingual BERT based on source and backtranslations. The translations have been backtranslated using the ML50 translation model, which is the same as used for the original translations. See how this was done [here](https://github.com/haeggee/error-detection-mt/blob/main/datasets/backtranslation.ipynb).
+* Monolingual BERT based on source and backtranslations. The translations have been backtranslated using the ML50 translation model, which is the same as used for the original translations. See how this was done [here](https://github.com/haeggee/error-detection-mt/tree/main/dataset/backtranslation.ipynb).
 * Fine-tuning XLM-RoBERTa with various adaptations. Specifically, we also perform transfer-learning using weights from [TransQuest](https://github.com/TharinduDR/TransQuest/).
 * A Siamese approach, combining two monolingual models for English-(Japanese/Chinese). See [siamese_ja_zh.ipynb](https://github.com/haeggee/error-detection-mt/blob/main/siamese_ja_zh.ipynb).
 
