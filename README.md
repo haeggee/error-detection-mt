@@ -1,4 +1,4 @@
-# *Critical Error Detection in Machine Translation with BERT, XLM-RoBERTa and HuggingFace*
+## Critical Error Detection in Machine Translation with BERT, XLM-RoBERTa and HuggingFace
 ### Introduction 
 
 In this repository, we tackle the problem of critical-error detection in machine translation. To that end, we fine-tune different transformer based language models, including BERT and the multilingual XLM-RoBERTa model, and facilitate extensive evaluation. This PyTorch implementation leverages the Hugging face *transformers* to download pre-trained models, enable quick research experiments, access datasets and evaluation metrics.
@@ -16,7 +16,7 @@ The data consists of Wikipedia comments in English extracted from two sources: t
 * English-Chinese
 * English-German
 
-The dataset is provided by WMT'21 and we prepared it as a serialized pickle file the purpose of this task. See all the details [here](https://github.com/haeggee/error-detection-mt/tree/main/dataset).
+The dataset is provided by WMT'21 and we prepared it as a serialized pickle file for the purpose of this task. See all the details [here](https://github.com/haeggee/error-detection-mt/tree/main/dataset).
 
 ---
 
