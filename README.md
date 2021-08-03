@@ -16,7 +16,7 @@ The data consists of Wikipedia comments in English extracted from two sources: t
 * English-Chinese
 * English-German
 
-The dataset used in this repository is prepared by ourselves for the purpose of this task. See all the details [here](https://github.com/haeggee/error-detection-mt/tree/main/dataset). Specifically, we create ```<data>.pkl``` files for easy reusability.
+The dataset is provided by WMT'21 and we prepared it as a serialized pickle file the purpose of this task. See all the details [here](https://github.com/haeggee/error-detection-mt/tree/main/dataset).
 
 ---
 
