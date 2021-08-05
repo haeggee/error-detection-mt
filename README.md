@@ -3,6 +3,8 @@
 
 In this repository, we tackle the problem of critical-error detection in machine translation. To that end, we fine-tune different transformer based language models, including BERT and the multilingual XLM-RoBERTa model, and facilitate extensive evaluation. This PyTorch implementation leverages the Hugging face *transformers* to download pre-trained models, enable quick research experiments, access datasets and evaluation metrics.
 
+All our code is accessible through Jupyter Notebooks that can be run on Google Colab, allowing full reproducibility of results.
+
 This task is part of the WMT'21 [shared task on quality estimation](http://www.statmt.org/wmt21/quality-estimation-task.html).
 
 ---
